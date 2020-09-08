@@ -1,0 +1,25 @@
+Get started a Node JS project
+npm init -y
+
+Express (Web Server)
+   Install dependency
+   Create express app instance
+   
+   npm install express
+   
+ 
+Nodemon(Lets you local server live reload)
+npm install nodemon --save 
+
+
+Middleware 
+ Access to request/response objects and the next middleware function in the pipeline
+ Execute any code
+ Call the next middleware function in the stack
+ 
+ 
+ Mongoose 
+  Install dependency
+  Reference mongoose
+  CRUD API
+
