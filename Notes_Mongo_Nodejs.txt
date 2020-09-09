@@ -22,4 +22,20 @@ Middleware
   Install dependency
   Reference mongoose
   CRUD API
+  
+  
+  
+  
+  
+Todo backend
+  Use Typescript, NodeJs, Express and MOngoDB
+  
+  It's a backend for a todo list App.
+  
+  Dependencies are:
+    npm install express cors mongoose
+  
+  Dev dependencies are:
+  npm install nodemon --save 
+  npm install --save-dev @types/node @types/express @types/mongoose @types/cors
 
