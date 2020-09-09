@@ -35,7 +35,9 @@ Todo backend
   Dependencies are:
     npm install express cors mongoose
   
+  
   Dev dependencies are:
+  npm install concurrently  --save-dev 
   npm install nodemon --save 
   npm install --save-dev @types/node @types/express @types/mongoose @types/cors
 
