@@ -19,3 +19,22 @@ const getTodos = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
         throw error;
     }
 });
+const addTodo = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        //THis is for casting data type or something similar
+        const body = req.body;
+        const todo = new todo_1.Todo({
+            name: body.name,
+            description: body.description,
+            status: body.status
+        });
+        const newTodo = yield todo.save();
+        const allTodos = yield todo_1.Todo.find();
+        res
+            .status(201)
+            .json({ message: "Todo added", todo: newTodo, todos: allTodos });
+    }
+    catch (error) {
+        throw error;
+    }
+});

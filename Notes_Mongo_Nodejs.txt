@@ -53,7 +53,8 @@ Todo backend
  
  Create API controllers
  Get, Add, Update and Delete Todos
-controllers/todos/index.ts
- 
+   controllers/todos/index.ts
+  Done getTodos
+  Done addTodo
  
 
