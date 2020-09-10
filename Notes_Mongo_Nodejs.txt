@@ -1,4 +1,5 @@
 Get started a Node JS project
+take from https://www.freecodecamp.org/news/how-to-build-a-todo-app-with-react-typescript-nodejs-and-mongodb/#api-with-nodejs-express-mongodb-and-typescript
 npm init -y
 
 Express (Web Server)
@@ -28,6 +29,7 @@ Middleware
   
   
 Todo backend
+ Done -Installation and so on 
   Use Typescript, NodeJs, Express and MOngoDB
   
   It's a backend for a todo list App.
@@ -40,4 +42,18 @@ Todo backend
   npm install concurrently  --save-dev 
   npm install nodemon --save 
   npm install --save-dev @types/node @types/express @types/mongoose @types/cors
+  
+  
+  -Create a todo types
+    There's a Todo interface that extends the Document type provided by mongoose. 
+	  We will be using it later to interact with MongoDB
+ 
+ -Create TodoModel
+ 
+ 
+ Create API controllers
+ Get, Add, Update and Delete Todos
+controllers/todos/index.ts
+ 
+ 
 
